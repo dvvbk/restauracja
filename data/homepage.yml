@@ -1,0 +1,79 @@
+################## Hero area ##################
+heroArea:
+  enable : true
+  bgImage : "images/header.jpg"
+  overlay : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : "NASZE POTRAWY"
+  sliderItem:
+    - image : "images/slider/slider-img-1.jpg"
+    - image : "images/slider/slider-img-2.jpg"
+    - image : "images/slider/slider-img-3.jpg"
+    - image : "images/slider/slider-img-4.jpg"
+    - image : "images/slider/slider-img-1.jpg"
+    - image : "images/slider/slider-img-2.jpg"
+    - image : "images/slider/slider-img-3.jpg"
+    - image : "images/slider/slider-img-4.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/cooker-img.png"
+  title : "O<span> naszej </span>restauracji"
+  description : "Oferujemy Państwu wyjątkową okazję, by przeżyć spotkanie biznesowe, czy rodzinne, ciesząc się niezwykłym widokiem na panoramę okolicy! Przestronny taras umożliwia relaks, o jaki trudno w centrum miasta. Ponad miejskim chaosem można spędzić wyjątkowe chwile, delektując się kuchnią bazującą w dużej mierze na produktach regionalnych."
+  
+################# Blog ######################
+blog:
+  enable : false
+  title : "Our Latest <span>Blog</span>"
+  bgImage : "images/blog/blog-bg.jpg"
+  overlay : true
+
+
+################# food Menu ################
+pricing:
+  enable : true
+  title : "Nasze <span>CENY</span>"
+  description: "W naszej restauracji przyrządzamy wykwintne dania, ale również przystawki, zupy czy sałatki"
+  subtitle : "W tym tygodniu przewidujemy"
+  pricingItem:
+  - title: "Kwaśnica Lubelska"
+    description: "wędzonka, ziemniak, śmietana, prażuchy, zioła"
+    price : "14 zł"
+
+  - title: "Sałatka Z Wędzonym Pstrągiem"
+    description: "suszony pomidor, winogrona, marynowana cebulka, Gorgonzola, sos musztardowy"
+    price : "24 zł"
+
+  - title: "Czarne Pierogi Z Karpiem"
+    description: "kasza pęczak, por, ser wędzony, chrupki jarmuż, sos grzybowy"
+    price : "29 zł"
+
+  - title: "Filet Z Kaczki"
+    description: "zapiekanka z ziemniaka, glazurowane warzywa, krem z dyni, jarmuż, żurawinowy demi glace"
+    price : "39 zł"
+
+  - title: "Pstrąg"
+    description: "kalafior romanesco z czosnkiem i oliwą, kremowe puree z chrzanem, prażone chorizio, zioła, sos bisque"
+    price : "41 zł"
+
+################### Subscription ################
+subscription:
+  enable : true
+  bgImage : "images/subscribe-bg.jpg"
+  title : "SUBSKRYBUJ nasz <span>NEWSLETTER</span>"
+  description : "Będziesz zawsze na bierząco z naszym menu i aktualnymi promocjami"
+  #Mailchimp subscription configaration 
+  #formAction : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay : true
+
+################ Contact #######################
+contact:
+  enable : true
+  title: "Skontaktuj się <span>z nami </span>"
+  subtitle: "Uzupełnij formularz"
+  formAction : "#" #contact form works with formspree.io

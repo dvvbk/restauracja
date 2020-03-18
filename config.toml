@@ -1,0 +1,142 @@
+######################## default configuration ####################
+baseURL = "http://example.org/"
+languageCode = "pl"
+title = "Restauracja"
+theme = "restaurant-hugo"
+summaryLength = "7"
+paginate = 6
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "css/slick.css"
+[[params.plugins.css]]
+URL = "css/font-awesome.min.css"
+[[params.plugins.css]]
+URL = "css/animate.min.css"
+[[params.plugins.css]]
+URL = "css/venobox.css"
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/responsive.css"
+
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/jquery.min.js"
+[[params.plugins.js]]
+URL = "js/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "js/slick.min.js"
+[[params.plugins.js]]
+URL = "js/wow.min.js"
+[[params.plugins.js]]
+URL = "js/venobox.min.js"
+[[params.plugins.js]]
+URL = "js/main.js"
+
+############################## navigation ###############################
+
+[[menu.main]]
+name = "Dom"
+URL = "hero-area"
+weight = 1
+
+[[menu.main]]
+name = "O nas"
+URL = "about-us"
+weight = 2
+
+[[menu.main]]
+name = "Cennik"
+URL = "price"
+weight = 3
+
+[[menu.main]]
+name = "Aktualności"
+URL = "subscribe"
+weight = 4
+
+[[menu.main]]
+name = "Kontakt"
+URL = "contact-us"
+weight = 5
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# meta data
+author = "Kacper"
+description = "Opis"
+# google analitycs ID
+#google_analitycs_id = "Your ID"
+# copyright
+copyright = "Copyright 2020 - Wszystkie prawa zastrzeżone."
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+################################### Footer ############################
+[params.footer]
+enable = true
+contactInfoTitle = "KONTAKT <span>INFORMACJE</span> "
+galleryTitle = "AKTUALNE <span>ZDJĘCIA</span>"
+socialTitle = "NASZE <span>MEDIA</span>"
+
+############################ footer contact item
+[[params.footer.contactItem]]
+title="Telefon"
+icon = "fa fa-phone"
+content = "016742 323313"
+
+[[params.footer.contactItem]]
+title="Adres"
+icon = "fa fa-map-marker"
+content = "Plac Wolności 1, Lublin"
+
+[[params.footer.contactItem]]
+title="E mail"
+icon = "fa fa-envelope"
+content = "jedzonko@restauracja.pl"
+
+######################### footer gallery
+[[params.footer.gallery]]
+image = "images/slider/slider-img-1.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-2.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-3.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-4.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-1.jpg"
+
+[[params.footer.gallery]]
+image = "images/slider/slider-img-2.jpg"
+
+######################## Social Icon 
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://fb.com/#"
+
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://fb.com/#"
+
+[[params.footer.socialLink]]
+icon = "dribbble"
+link = "https://fb.com/#"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://fb.com/#"
