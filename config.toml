@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "https://restaur.netlify.com/"
 languageCode = "pl"
 title = "Restauracja"
 theme = "restaurant-hugo"
