@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://restaur.netlify.com/"
 languageCode = "pl"
-title = "Restauracja"
+title = "Restauracja Lubelak"
 theme = "restaurant-hugo"
 summaryLength = "7"
 paginate = 6
